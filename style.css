@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 25px;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    height: auto;
+}
+.div1{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    margin-top: 25px;
+}
+.div2{
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.div2 input,select{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+}
+.gender {
+    display: flex;
+    font-size: 22px;
+    margin-right: 280px;
+    padding-top: 10px;
+}
+.gender input{
+    height:20px;
+} 
+.gender label{
+    margin-top: 8px;
+}
+.btn2{
+    margin-left: 30px;
+}
+.add input{
+    height: 200px;
+}
+
+.labelcity{
+    margin-top: 180px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+}
+.label1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.checkbox input{
+    height: 15px;
+    width: 15px;
+}
+.labelpass{
+    margin-top: 120px;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px;
+}
+.btn1{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgb(95, 255, 47);
+}
+
+.error{
+    border-color: red;
+} 

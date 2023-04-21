@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="heading">Student Registration Form</div>
+    <form action="" name="register">
+    <div class="container">
+
+        <!-- div1 for label of input items -->
+
+        <div class="div1">
+            <div class="label">
+            <label for="">First Name:</label>
+            </div>
+
+            <div class="label">
+            <label for="">Last Name:</label>
+            </div>
+
+            <div class="label">
+            <label for="">Email:</label>
+            </div>
+
+            <div class="label">
+            <label for="">Mobile:</label>
+            </div>
+
+            <div class="label">
+            <label for="">Gender:</label>
+            </div>
+
+            <div class="label">
+                <label for="">Date of Birth:</label>
+            </div>
+
+            <div class="label">
+                <label for="">Address:</label>
+            </div>
+
+            <div class="labelcity">
+                <label for="">City:</label>
+            </div>
+
+            <div class="label">
+                <label for="">Area Pin:</label>
+            </div>
+
+            <div class="label">
+                <label for="">State:</label>
+            </div>
+
+            <div class="label">
+                <label for="">Qualification:</label>
+            </div>
+
+            <div class="label">
+                <label for="">Specification:</label>
+            </div>
+
+            <div class="labelpass">
+                <label for="">Password:</label>
+            </div>
+
+            <div class="button">
+                <button class="btn1" onclick="check_empty()">Register</button>
+            </div>
+
+        </div>
+
+        <!-- div2 for inputs of label -->
+
+        <div class="div2">
+            <div1 class="input">
+            <input type="text" id="fname" placeholder="Enter your first name" maxlength="6" onkeyup="checkfname()">
+            </div1>
+
+            <div class="input">
+            <input type="text" id="lname" placeholder="Enter your last name" maxlength="6" onkeyup="checklname()">
+            </div>
+
+            <div class="input">
+            <input type="text" id="email" class="input" placeholder="it should contain @ ">
+            </div>
+
+            <div class="input">
+            <input type="text" id="mono" placeholder="only 10 digit are alowed" maxlength="10" onkeyup="check_mobile()">
+            </div>
+
+            <div class="gender">
+                <input type="radio" class="btn1" name="gender" value="Male"><label>Male</label>
+                <input type="radio" class="btn2" name="gender" value="Female"><label>Female</label>
+            </div>
+
+            <div class="input">
+                <input type="date" id="date">
+            </div>
+
+            <div class="add">
+                <input type="adress" id="add">
+            </div>
+
+            <div class="input">
+            <input type="text" id="city" >
+            </div>
+
+            <div class="input">
+            <input type="text" id="area" >
+            </div>
+
+            <div class="input">
+            <input type="text" id="state" >
+            </div>
+
+            <div class="input">
+            <select class="select">
+                <option value="">----select----</option>
+                <option value="">Bachelor of engineerong</option>
+                <option value="">Master of engineering</option>
+                <option value="">phd</option>
+            </select>
+            </div>
+
+            <div class="checkbox">
+                <div class="box">
+                    <input type="checkbox"><label class="label1">Computer Science</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox"><label class="label1">Imformation Technology</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox"><label class="label1">Computer Architecture</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox"><label class="label1">Telecommunication</label>
+                </div>
+            </div>
+            
+            <div class="input">
+                    <input type="password" id="pass">
+            </div>
+        </div>
+    </div>
+    </form>
+
+    <script src="./reg.js"></script>
+  </body>
+</html>
